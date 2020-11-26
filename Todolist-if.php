@@ -18,9 +18,6 @@
 
 <?php 
 
-$a = '1';
-
-
 if (!empty($_POST['name'])) {
 
     ?>
