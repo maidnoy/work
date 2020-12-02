@@ -17,36 +17,26 @@
 <br>
 
 <?php 
-
-if (!empty($_POST['name'])) {
+if(!empty($_POST['name'])){
 
     ?>
 
     <input  type='text'  name='name1'  value='<?php echo ($_POST['name']) ?>' >
-   
-    <?php
-
-    if(empty($_POST['name'])){
-
-      ?>
-
-        <input name='name' value='<?php echo ($_POST['name']) ?>'>
-
-      <?php
-      }
-    
-    ?>
+ 
     <br>
 
  <?php
-
+   
   } 
+
+
 ?>
 
 <?php 
 
+if(!empty($_POST['name1'])) {
 
-if (!empty($_POST['name1'])) {
+
 
  
 
@@ -56,7 +46,6 @@ if (!empty($_POST['name1'])) {
     <br>
 
  <?php
-
 
   } 
 
