@@ -17,9 +17,11 @@
     //สร้างช่องใส่ข้อมูล
 ?>
     <form name='frm'  method='post' action='save.php'  align='center'>
-    <input type="text" name="name" size='65'>
-    
-    <input type="submit" name='add' value="add" size="5" class='a'>
+
+    <input type="text" name="name" size='80' Maxlength= '20' placeholder="New Item">
+  
+    <input type="submit" name='add' value="add" size="10" class='b'>
+
     <br>
     <br>
 

@@ -9,8 +9,8 @@
         $id = $_GET['id'];
 
         $sql = "UPDATE list SET 
-                    name = '$name' ,
-                    
+                    name = '$name' 
+                   
                     WHERE id = '$id' ";
 
         mysqli_query($conn,$sql) or die('Can Not UPDATE ');

@@ -10,24 +10,54 @@
 h1{
   
   margin-top: 30px;
-  margin-right: 60px;
-  margin-left: 600px;
+  margin-left: 25%;
 }
-
-  a{
-
-  color: red;
+  .tb{
+    
+    border: 2px solid #ddd;
+    border-collapse: collapse;
   
   }
 
-    .a{
+  .tr{
+    border-bottom: 2px solid #ddd;
+    
+  }
 
-        background: #3366FF;
-        color: #FFFFFF ;
+  .link{
+
+    color: red;
+    margin-right: 7%;
+    margin-left: 70%;
+   
+  }
+
+  .b{
+    color: #fff;
+    background: #3366FF;
+  }
+
+  .li{
+
+
+    margin-right: 5%;
+    margin-left: 90%;
+  }
+    input[type=checkbox]:checked + label{
+  
+  text-decoration: line-through;
     }
+  
+  .la{
+    margin-left: 10px;
+  }
+
+</style>
    
 </head>
 <body>
+
+<!--inline-->
 
     <?php
 
