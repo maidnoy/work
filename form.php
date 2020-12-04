@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,16 +10,14 @@
 </head>
 <body>
 
-<h1> Todo List </h1>
 
-<?php
-    //สร้างช่องใส่ข้อมูล
-?>
+
+
     <form name='frm'  method='post' action='save.php'  align='center'>
 
-    <input type="text" name="name" size='80' Maxlength= '20' placeholder="New Item">
+    <input type="text" name="name" class='in' Maxlength= '20' placeholder="New Item" required>
   
-    <input type="submit" name='add' value="add" size="10" class='b'>
+    <input type="submit" name='add' value="add" size="10%" class='b'>
 
     <br>
     <br>

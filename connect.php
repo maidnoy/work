@@ -7,11 +7,16 @@
   <!--internal-->
 	<style>
 
-h1{
+.f{
   
   margin-top: 30px;
-  margin-left: 25%;
+  margin-left: 20%;
 }
+.cb{
+  
+  margin-left: 15px;
+}
+
   .tb{
     
     border: 2px solid #ddd;
@@ -27,7 +32,7 @@ h1{
   .link{
 
     color: red;
-    margin-right: 7%;
+    margin-right: 15%;
     margin-left: 70%;
    
   }
@@ -49,7 +54,12 @@ h1{
     }
   
   .la{
+    font-size: 20px;
     margin-left: 10px;
+  }
+  .in{
+    width: 40%;
+    height: 10%;
   }
 
 </style>
