@@ -32,9 +32,15 @@
   .link{
 
     color: red;
-    margin-right: 15%;
+    margin-right: 10px;
     margin-left: 70%;
    
+  }
+
+  .link2{
+
+    margin-left: 70%;
+
   }
 
   .b{

@@ -12,9 +12,10 @@
 
         header('location: indexdb.php');
 
-    }}else{
+    }
+    }else{
+
         header('location: indexdb.php');
-        
     }
 
 ?>
