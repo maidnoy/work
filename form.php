@@ -24,7 +24,7 @@
 
     <form name='frm'  method='post' action='save.php'  align='center' onSubmit='javarscipt : return fncSubmit();'>
 
-    <input type="text" name="name" class='in' Maxlength= '20' placeholder="New Item" id='textfield' >
+    <input type="text" name="name" class='in' Maxlength= '20' placeholder="New Item" id='textfield'  >
   
     <input type="submit" name='add' value="add" size="10%" class='b'>
 

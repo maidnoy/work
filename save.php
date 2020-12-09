@@ -2,6 +2,8 @@
 
     require('connect.php');
 
+  
+
     if(!empty($_POST['name'])){
 
     if(isset($_POST['add'])){

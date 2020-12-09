@@ -68,6 +68,11 @@
     height: 10%;
   }
 
+  .ed{
+
+    margin-left: 42%;
+  }
+
 </style>
    
 </head>
