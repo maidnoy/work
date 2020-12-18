@@ -25,25 +25,20 @@ include('form.php');
     
 ?>  
 
-<form action='save_cbox.php' method='post'> 
+
 <table  align='center'  width="60%" class='tb'  >
     <?php while ($row = $result->fetch_assoc()): ?>
 
     <tr  class='tr' height="70px" >
-    
+    <form action='save_edit.php?id=<?php echo $row['id']; ?>'  method='post'>
 
         <td > 
          <input type='checkbox' name='cbox' class='cb' value='1'> 
          
-         <label class='la'> <?php echo $row['name'] ?> </label>
+         <label class='la'  > <input type="text" name="name" class='inp' Maxlength= '20'  value=' <?php echo $row['name'] ?>' style="border: 5px #FFFFFF; width: 500px;" underline> </label>
         </td>
 
-        <td> <a href='edit_f.php?id=<?php echo $row['id']; ?>'  class='link2'>  
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pencil" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5L13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175l-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
-        </svg> </a>
-        
-        <td>  
+        <td>  <input type="submit" name='edit'  value='edit' size="5"  class='link2'  hide>   <td>  
            
         <a href='delete.php?id=<?php echo $row['id']; ?>'  class='link' onClick="return confirm('You confirm delete');">  
         <svg  width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -52,11 +47,13 @@ include('form.php');
         </svg> </a>
         
        </td>
-     
-    </tr>
+       </form>
+    </tr> 
+   
+  
 <?php endwhile ?>
 </table>
 
-</form> 
+
 </body>
 </html>

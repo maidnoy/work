@@ -33,13 +33,14 @@
 
     color: red;
     margin-right: 10px;
-    margin-left: 70%;
+    margin-left: 5%;
    
   }
 
   .link2{
 
-    margin-left: 70%;
+    
+    display: none;
 
   }
 
@@ -54,7 +55,7 @@
     margin-right: 5%;
     margin-left: 90%;
   }
-    input[type=checkbox]:checked + label{
+    input[type=checkbox]:checked + label + input[type=text]
   
   text-decoration: line-through;
     }
@@ -68,9 +69,19 @@
     height: 10%;
   }
 
+  .inp{
+    font-size:20px;
+  }
+
   .ed{
 
-    margin-left: 42%;
+    margin-left: 31%;
+  }
+
+  .a{
+
+    font-size: 25px;
+    margin-left: 20%;
   }
 
 </style>
